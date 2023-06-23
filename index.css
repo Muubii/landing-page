@@ -1,0 +1,143 @@
+.backgroundcontainer {
+    
+  display: flex;
+}
+
+  .backgroundcontainer > div {
+    background-color: black;
+      color: white;
+    flex: 1;
+    height: 50px     
+}
+
+.sl {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 18px;
+  color:#E5E7EB;
+}
+
+body {
+  margin: 0;
+}
+
+
+.layer1{
+  color: white;
+  width: 100vw;
+  height: 500px;
+  position: relative;
+background:  url(Mienar.gif)  
+}
+
+.layer1Left {
+  color: white;
+  margin: 3em 2em 3em 5em;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.layer1Container {
+  border-radius: 1.5em;
+  margin: 9em auto 0 auto;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 2em rgb(69, 69, 69);
+  
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  border: 4px solid darkslategray;
+  background: skyblue;
+}
+
+.random{
+  display: flex;
+  flex-direction: row;
+  margin-left: 37%;
+  
+
+}
+
+.images-second
+{
+  justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap:5%;
+    display: flex;
+}
+.image-subtext img{
+    height: 25vh;
+    border-radius: 10px;
+    border:solid rgb(0, 0, 0) 2px;
+    width:25vh;
+}
+
+
+.text1 {
+  background-color: #E5E7EB;
+    justify-content: center;
+    float: left;
+    flex-basis: 200px;
+}
+
+.quote{
+    margin-top:200px;
+    float: right;
+    margin-bottom:fill;
+    font-size: 70px;
+    font-style:italic;
+    font-weight:400;
+    color:#1F2937
+}
+
+.quoter{
+  font-style:italic;
+  flex-basis: 200px;
+  font-size: 50px;
+}
+
+.layer3 {
+  border: 5px solid rgb(105, 105, 164);
+  display: flex;
+  padding: 10px;
+  text-align: left;
+  font-size: 2em;
+  color: white;
+background-color: #1F2937;
+}
+
+.spotify { 
+display: flex;
+text-align: left;
+}
+
+.clickoverthere{
+  display: flex;
+  text-align: left;
+  padding: 20px;
+}
+
+
+
+
+.copyright{
+  text-align: center;
+}
+
