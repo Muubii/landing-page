@@ -4,10 +4,11 @@
 }
 
   .backgroundcontainer > div {
+    width: 100%;
     background-color: black;
       color: white;
     flex: 1;
-    height: 50px     
+    height: 50px    
 }
 
 .sl {
@@ -23,13 +24,14 @@
 
 body {
   margin: 0;
+  width: 100%;
 }
 
 
 .layer1{
   color: white;
-  width: 100vw;
-  height: 500px;
+  width: 100%;
+  height: 50vh;
   position: relative;
 background:  url(Mienar.gif)  
 }
@@ -37,7 +39,7 @@ background:  url(Mienar.gif)
 .layer1Left {
   color: white;
   margin: 3em 2em 3em 5em;
-  width: 40vw;
+  width: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,22 +50,16 @@ background:  url(Mienar.gif)
   border-radius: 1.5em;
   margin: 9em auto 0 auto;
   width: 70%;
-  height: 300px;
+  height: 30vh;
   display: flex;
   float: left;
   flex-direction: row;
+  margin-left: 15%;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 2em rgb(69, 69, 69);
   
-}
-
-.item {
-  width: 200px;
-  height: 200px;
-  border: 4px solid darkslategray;
-  background: skyblue;
 }
 
 .random{
@@ -83,37 +79,39 @@ background:  url(Mienar.gif)
     display: flex;
 }
 .image-subtext img{
-    height: 25vh;
+    height: 15vh;
     border-radius: 10px;
     border:solid rgb(0, 0, 0) 2px;
-    width:25vh;
+    width:15vh;
 }
 
 
 .text1 {
+  width: 100%;
   background-color: #E5E7EB;
     justify-content: center;
     float: left;
-    flex-basis: 200px;
 }
 
 .quote{
-    margin-top:200px;
+    margin-top:10vh;
     float: right;
     margin-bottom:fill;
-    font-size: 70px;
+    align-items: center;
+    font-size: 10vh;
     font-style:italic;
-    font-weight:400;
+    font: weight 10vh;
     color:#1F2937
 }
 
 .quoter{
   font-style:italic;
-  flex-basis: 200px;
+  align-items: center;
   font-size: 50px;
 }
 
 .layer3 {
+  margin: 1%;
   border: 5px solid rgb(105, 105, 164);
   display: flex;
   padding: 10px;
@@ -121,6 +119,7 @@ background:  url(Mienar.gif)
   font-size: 2em;
   color: white;
 background-color: #1F2937;
+width: 100%;
 }
 
 .spotify { 
@@ -141,3 +140,6 @@ text-align: left;
   text-align: center;
 }
 
+.second {
+  width: 100%;
+}
