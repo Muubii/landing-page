@@ -1,14 +1,26 @@
-.backgroundcontainer {
-    
+
+.background-container {
+  width: 100%;
+  background-color: black;
+  color: white;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 50px;
+  gap: 5%;
 }
 
-  .backgroundcontainer > div {
-    width: 100%;
-    background-color: black;
-      color: white;
-    flex: 1;
-    height: 50px    
+div.link {
+  margin-top: 0.5%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  width: 20%;
+}
+
+div.sl {
+  margin-top: 0.5%;
+  margin-right: 60%;
 }
 
 .sl {
@@ -32,34 +44,47 @@ body {
   color: white;
   width: 100%;
   height: 50vh;
-  position: relative;
-background:  url(img/Mienar.gif)  
+  background:  url(img/Mienar.gif);
+}
+
+.invisible{
+  margin-bottom: 2.5%;
+  visibility: hidden;
+}
+
+.layer1Container {
+  border-radius: 1.5em;
+  width: 55%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 22.5%;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 2em rgb(69, 69, 69);
 }
 
 .layer1Left {
   color: white;
-  margin: 3em 2em 3em 5em;
-  width: 40vh;
+  margin-left: 5%;
+  width: 50%;
+  margin-right: 2.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 
-.layer1Container {
-  border-radius: 1.5em;
-  margin: 9em auto 0 auto;
-  width: 70%;
-  height: 30vh;
+.layer1Image {
+  width: 100%;
+  height: 60%;
+  border-radius: 5%;
+}
+
+.layer1Right {
+  margin-right: 7.5%;
   display: flex;
-  float: left;
-  flex-direction: row;
-  margin-left: 15%;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0 2em rgb(69, 69, 69);
-  
+  flex-direction: column;
+  margin-top: 5%;
 }
 
 .random{
@@ -100,7 +125,7 @@ background:  url(img/Mienar.gif)
     align-items: center;
     font-size: 10vh;
     font-style:italic;
-    font: weight 10vh;
+    font-weight: 10;
     color:#1F2937
 }
 
