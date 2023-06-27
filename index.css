@@ -88,26 +88,22 @@ body {
 }
 
 .random{
-  display: flex;
-  flex-direction: row;
-  margin-left: 37%;
-  
-
+  text-align: center;
 }
 
-.images-second
-{
+.images-second {
+  margin-top: 5%;
   justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    gap:5%;
-    display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
 }
 .image-subtext img{
     height: 15vh;
+    width:15vh;
     border-radius: 10px;
     border:solid rgb(0, 0, 0) 2px;
-    width:15vh;
 }
 
 
@@ -136,15 +132,11 @@ body {
 }
 
 .layer3 {
-  margin: 1%;
   border: 5px solid rgb(105, 105, 164);
   display: flex;
-  padding: 10px;
-  text-align: left;
   font-size: 2em;
   color: white;
-background-color: #1F2937;
-width: 100%;
+  background-color: #1F2937;
 }
 
 .spotify { 
@@ -158,13 +150,11 @@ text-align: left;
   padding: 20px;
 }
 
-
-
-
 .copyright{
   text-align: center;
 }
 
 .second {
   width: 100%;
+  height: 35vh;
 }
