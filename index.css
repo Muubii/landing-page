@@ -1,7 +1,7 @@
 
 .background-container {
   width: 100%;
-  background-color: black;
+  background-color: rgb(32, 31, 31);
   color: white;
   display: flex;
   flex-direction: row;
@@ -38,7 +38,6 @@ body {
   margin: 0;
   width: 100%;
 }
-
 
 .layer1 {
   color: white;
@@ -148,9 +147,12 @@ left: 10%;
   margin-left: 10%; 
 }
 
+.donateNow .layer1Source{ 
+  color: aliceblue;
+}
 .copyright {
   text-align: center;
-  background-color: black;
+  background-color: rgb(32, 31, 31);
   color: white;
 }
 
@@ -159,3 +161,4 @@ left: 10%;
   height: 35vh;
   margin-bottom: 10%;
 }
+
