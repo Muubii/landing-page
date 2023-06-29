@@ -89,6 +89,7 @@ body {
 
 .random{
   display: flex;
+  text-align: center;
   flex-direction: row;
   margin-left: 37%;
   
@@ -119,47 +120,36 @@ body {
 }
 
 .quote{
-    margin-top:10vh;
-    float: right;
-    margin-bottom:fill;
-    align-items: center;
-    font-size: 10vh;
-    font-style:italic;
-    font-weight: 10;
-    color:#1F2937
+  font-size: 3em;
+  text-align: center;
+  font-style: italic;
 }
 
 .quoter{
-  font-style:italic;
-  align-items: center;
-  font-size: 50px;
+  text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
 }
 
 .layer3 {
-  margin: 1%;
-  border: 5px solid rgb(105, 105, 164);
-  display: flex;
-  padding: 10px;
-  text-align: left;
-  font-size: 2em;
-  color: white;
-background-color: #1F2937;
-width: 100%;
+  background-color: beige ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .spotify { 
 display: flex;
-text-align: left;
+left: 10%;
+
 }
 
 .clickoverthere{
-  display: flex;
-  text-align: left;
-  padding: 20px;
+  text-align: center;
+  
 }
-
-
-
 
 .copyright{
   text-align: center;
