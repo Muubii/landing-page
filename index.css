@@ -28,7 +28,7 @@ div.sl {
     color:#F9FAF8;
 }
 
-.link{
+.link {
   text-decoration: none;
   font-size: 18px;
   color:#E5E7EB;
@@ -40,14 +40,14 @@ body {
 }
 
 
-.layer1{
+.layer1 {
   color: white;
   width: 100%;
   height: 50vh;
   background:  url(img/Mienar.gif);
 }
 
-.invisible{
+.invisible {
   margin-bottom: 2.5%;
   visibility: hidden;
 }
@@ -87,28 +87,26 @@ body {
   margin-top: 5%;
 }
 
-.random{
+.random {
   display: flex;
   text-align: center;
   flex-direction: row;
   margin-left: 37%;
-  
-
 }
 
-.images-second
-{
+.images-second {
+  margin-top: 5%;
   justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    gap:5%;
-    display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: row;
 }
-.image-subtext img{
+.image-subtext img {
     height: 15vh;
+    width:15vh;
     border-radius: 10px;
     border:solid rgb(0, 0, 0) 2px;
-    width:15vh;
 }
 
 
@@ -119,20 +117,20 @@ body {
     float: left;
 }
 
-.quote{
+.quote {
   font-size: 3em;
   text-align: center;
   font-style: italic;
 }
 
-.quoter{
+.quoter {
   text-align: center;
     margin-top: 2em;
-    font-size: 2em;
+    font-size: 2em; 
 }
 
 .layer3 {
-  background-color: beige ;
+  background-color: rgba(131, 131, 128, 0.126) ;
     margin: 50px 200px;
     padding: 10px 80px;
     display: flex;
@@ -143,18 +141,19 @@ body {
 .spotify { 
 display: flex;
 left: 10%;
-
 }
 
-.clickoverthere{
-  text-align: center;
-  
+.clickoverthere {
+  display: flex;
+  margin-left: 10%; 
 }
 
-.copyright{
+.copyright {
   text-align: center;
 }
 
 .second {
   width: 100%;
+  height: 35vh;
+  margin-bottom: 5%;
 }
