@@ -131,7 +131,7 @@ body {
 
 .layer3 {
   background-color: rgba(131, 131, 128, 0.126) ;
-    margin: 50px 200px;
+    margin: 50px 300px;
     padding: 10px 80px;
     display: flex;
     align-items: center;
@@ -146,10 +146,21 @@ left: 10%;
 .clickoverthere {
   display: flex;
   margin-left: 10%; 
+  border: 1px solid rgb(55, 53, 53);
+  background-color: rgb(55, 53, 53);
+  color: white;
+  border-radius: 10px;
 }
 
 .donateNow .layer1Source{ 
   color: aliceblue;
+}
+
+.donateNow{
+  border: 1px solid rgb(125, 89, 89);
+  background-color: rgb(125, 89, 89);
+  color: white;
+  border-radius: 10px;
 }
 .copyright {
   width: 100%;
